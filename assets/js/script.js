@@ -286,7 +286,7 @@ const App = {
     //--------------------------------//
     // Controls to local storage
     if (localStorage.color) this.color = localStorage.color;
-    if (localStorage.fillPallete) this.fillPallete = localStorage.fillPallete.split(",");
+    if (localStorage.fill) this.fill = localStorage.fill.split(",");
     if (localStorage.timer) this.timer = localStorage.timer;
 
     // Matrix to local storage
